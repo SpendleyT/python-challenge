@@ -38,7 +38,7 @@ with open(budget_csv, 'r') as csvfile:
         curr_profit = int(row[1])
         total_profit += curr_profit
         
-        # Calculate change and 
+        # Calculate row change and total change
         curr_change = (curr_profit - last_profit)
         total_change += curr_change
             
